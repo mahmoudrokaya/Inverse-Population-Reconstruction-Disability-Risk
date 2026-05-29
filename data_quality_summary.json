@@ -1,0 +1,7 @@
+{
+    "n_rows": 20998,
+    "n_columns": 35,
+    "target_column": "disability_stage",
+    "overall_missing_rate": 0.09427564529955233,
+    "duplicated_rows": 0
+}
