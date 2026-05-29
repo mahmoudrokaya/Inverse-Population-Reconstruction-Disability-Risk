@@ -1,0 +1,6 @@
+concept,nhanes_column,hrs_column,compatible
+age,age,ragender,True
+education,education,raeduc,True
+race_ethnicity,race_ethnicity,rahispan,True
+hypertension,mean_sbp,rahibpef,True
+arthritis,arthritis,raarthref,True

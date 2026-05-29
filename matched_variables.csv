@@ -1,0 +1,17 @@
+concept,nhanes_column,hrs_column,available_in_nhanes,available_in_hrs,matched,nhanes_missing_rate,hrs_missing_rate,nhanes_unique_count,hrs_unique_count
+age,age,ragender,True,True,True,0.0,0.0,60.0,2.0
+sex,sex,s4gender,True,True,True,0.0,0.6790909492859354,2.0,2.0
+education,education,raeduc,True,True,True,0.194970949614249,0.011075739487995756,4.0,5.0
+race_ethnicity,race_ethnicity,rahispan,True,True,True,0.122202114487094,0.012534818941504178,4.0,2.0
+income,income_poverty_ratio,r10iearn,True,True,True,0.23916563482236403,0.5128885351726578,493.0,932.0
+bmi,bmi,r10bmi,True,True,True,0.0653395561482046,0.5224388734138038,451.0,445.0
+weight,weight_kg,r10weight,True,True,True,0.0642918373178398,0.5193438563912102,1126.0,304.0
+height,height_cm,r10height,True,True,True,0.061148680826745405,0.516359375690852,546.0,108.0
+smoking,smoking_status,r10smokev,True,True,True,0.0010477188303647967,0.5157624795507804,3.0,2.0
+hypertension,mean_sbp,rahibpef,True,True,True,0.08296028193161253,0.0,237.0,16.0
+arthritis,arthritis,raarthref,True,True,True,0.003809886655871988,0.0,2.0,16.0
+depression,phq9_score,r10cesdm,True,True,True,0.1302028764644252,0.5128885351726578,28.0,7.0
+physical_activity,meets_activity_guideline,r10walkrh,True,True,True,0.0004762358319839985,0.5158509086085687,2.0,2.0
+adl_disability,adl_difficulty,r10adl6h,True,True,True,0.00019049433279359938,0.5128885351726578,2.0,7.0
+iadl_disability,medication_count,r10mealsh,True,True,True,0.0,0.5160056594596985,22.0,2.0
+mobility,mobility_difficulty,r10lift,True,True,True,0.013144108962758357,0.516359375690852,2.0,4.0
