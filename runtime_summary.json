@@ -1,0 +1,18 @@
+{
+    "runtime_seconds": 227.38508653640747,
+    "runtime_minutes": 3.7897514422734577,
+    "output_dir": "D:\\47\\472\\New-Papers\\InverseP-R-D-NHANES\\Experiments\\Experiment1_Partial_Observability_Reconstruction",
+    "observed_fractions": [
+        0.05,
+        0.1,
+        0.2,
+        0.3
+    ],
+    "latent_dimensions": [
+        12,
+        16,
+        20,
+        23
+    ],
+    "n_reconstructions": 5
+}
