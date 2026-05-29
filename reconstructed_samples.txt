@@ -1,0 +1,53 @@
+# How `reconstructed_samples` Were Generated
+
+The `reconstructed_samples` folder contains representative reconstructed NHANES participant records generated during **Experiment 1 — Partial Observability Reconstruction**.
+
+## Reconstruction Procedure
+
+To evaluate the model under incomplete observation settings, the original NHANES participant records were first subjected to simulated partial observability. A controlled masking process was applied where only a predefined percentage of features remained visible while the remaining variables were hidden.
+
+The tested observability settings were:
+
+* 5%
+* 10%
+* 20%
+* 30%
+
+For each scenario, the model received only the observed subset of variables and estimated the missing variables through inverse population reconstruction using learned latent structural dependencies within the NHANES population.
+
+## What the reconstructed samples represent
+
+Each reconstructed sample contains:
+
+* observed NHANES variables originally available to the model
+* masked variables treated as missing during inference
+* reconstructed values predicted by the structural learning framework
+* the corresponding original reference values for comparison
+
+This allows direct comparison between:
+
+* ground-truth participant profile
+* partially observed input profile
+* reconstructed full profile
+
+## Purpose
+
+These reconstructed samples were generated to assess:
+
+* recovery of missing participant-level information
+* preservation of latent population structure
+* robustness under severe missingness
+* consistency of reconstruction across different observability levels
+
+They provide qualitative evidence supporting the model’s ability to recover clinically meaningful disability-related information from incomplete NHANES observations.
+
+## Output format
+
+Files in this folder typically include tabular exports of:
+
+* original sample
+* masked input sample
+* reconstructed output sample
+* reconstruction error summary
+
+These outputs were saved automatically during Experiment 1 execution and were used for reconstruction fidelity analysis and qualitative inspection in the manuscript.
