@@ -1,0 +1,11 @@
+{
+    "n_harmonized_features": 5,
+    "correlation_structure_distance": 0.8234179957409159,
+    "covariance_structure_distance": 0.8234786874872245,
+    "correlation_vector_similarity": -0.3703438314697496,
+    "mean_pca_component_similarity": 0.15846562405906556,
+    "pc1_similarity": 0.21899830817919064,
+    "pc2_similarity": 0.23707063836202935,
+    "nhanes_pc1_variance": 0.27684143526404026,
+    "hrs_pc1_variance": 0.23903995413880785
+}
