@@ -1,0 +1,25 @@
+{
+    "runtime_seconds": 78.69760155677795,
+    "runtime_minutes": 1.3116266926129658,
+    "output_dir": "D:\\47\\472\\New-Papers\\InverseP-R-D-NHANES\\Experiments\\Experiment3_Temporal_Cross_Cycle_Validation",
+    "train_cycles": [
+        "2011-2012",
+        "2013-2014",
+        "2015-2016"
+    ],
+    "test_cycle": "2017-2018",
+    "observed_fractions": [
+        0.05,
+        0.1,
+        0.2,
+        0.3,
+        1.0
+    ],
+    "latent_dims": [
+        12,
+        16,
+        20,
+        23
+    ],
+    "n_reconstructions": 5
+}
