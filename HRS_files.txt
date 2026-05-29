@@ -1,0 +1,75 @@
+===========================================================
+HRS DATA FILES PLACEHOLDER
+===========================================================
+
+This folder stores the external validation dataset used in:
+
+Experiment 4A — HRS Structural Audit and Harmonization
+
+Required files
+--------------
+
+1) RAND HRS longitudinal data file
+
+Filename:
+randhrs1992_2022v1.dta
+
+2) RAND HRS documentation / codebook
+
+Filename:
+randhrs1992_2022v1.pdf
+
+
+Expected folder structure
+-------------------------
+
+data/
+└── HRS/
+    ├── randhrs1992_2022v1.dta
+    ├── randhrs1992_2022v1.pdf
+    └── put_HRS_file_here.txt
+
+
+Data source
+-----------
+
+Health and Retirement Study (HRS)
+
+RAND HRS Longitudinal File 2022 (V1)
+
+Produced by:
+RAND Center for the Study of Aging
+
+Official source:
+https://hrsdata.isr.umich.edu/
+
+
+Citation
+--------
+
+Health and Retirement Study, RAND HRS Longitudinal File 2022 (V1),
+public use dataset. Produced and distributed by the University of Michigan
+with funding from the National Institute on Aging (NIA) and the Social
+Security Administration (SSA).
+
+
+Notes
+-----
+
+- These files are required only for Experiment 4A.
+- The `.dta` file is the main dataset used for NHANES–HRS harmonization
+  and external structural validation.
+- The `.pdf` file is used as the official codebook and documentation
+  reference for variable mapping and interpretation.
+- Due to data use policies, HRS files may require registration and download
+  directly from the official HRS website.
+
+
+If files are missing
+--------------------
+
+Experiment 4A will not run unless:
+
+randhrs1992_2022v1.dta
+
+is available in this folder.
