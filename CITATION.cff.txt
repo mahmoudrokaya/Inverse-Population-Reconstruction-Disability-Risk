@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "Inverse Population Reconstruction of Disability Risk"
+message: "If you use this repository, please cite it using the metadata below."
+
+type: software
+
+authors:
+  - family-names: Rokaya
+    given-names: Mahmoud
+    affiliation: Taif University
+    orcid: ""
+
+repository-code: "https://github.com/mahmoudrokaya/Inverse-Population-Reconstruction-Disability-Risk"
+
+license: MIT
+
+abstract: >
+  Reproducible implementation of inverse population reconstruction and
+  structural learning for disability risk prediction using NHANES and HRS
+  longitudinal datasets under partially observable conditions.
+
+keywords:
+  - disability risk prediction
+  - NHANES
+  - HRS
+  - structural learning
+  - population reconstruction
+  - machine learning
+  - longitudinal health data
+  - partial observability
+
+version: 1.0.0
+date-released: 2026

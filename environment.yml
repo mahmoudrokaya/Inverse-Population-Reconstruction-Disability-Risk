@@ -1,0 +1,28 @@
+name: inverse-population-reconstruction
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - networkx
+  - openpyxl
+  - pyreadstat
+  - joblib
+  - tqdm
+
+  - pip
+
+  - pip:
+      - xgboost
+      - lightgbm
+      - catboost
+      - shap
