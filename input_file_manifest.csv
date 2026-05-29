@@ -1,0 +1,6 @@
+file,cycle,rows,columns
+NHANES_2011-2012_final_processed.csv,2011-2012,2469,34
+NHANES_2013-2014_final_processed.csv,2013-2014,2557,34
+NHANES_2015-2016_final_processed.csv,2015-2016,2601,34
+NHANES_2017-2018_final_processed.csv,2017-2018,2872,34
+NHANES_pooled_filled_corrected_blue.xlsx,pooled,10499,35
